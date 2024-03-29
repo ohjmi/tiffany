@@ -1,0 +1,298 @@
+@charset "utf-8";
+body {
+  font-family: 'Noto Sans KR',sans-serif;
+}
+#wrap {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+/* Safe Area 1280 클래스 */
+.w1280 {
+  width: 1280px;
+  margin: 0 auto;
+}
+/* Header */
+header {
+  height: 700px;
+  background-image: url('../images/slide_back_img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 24px;
+}
+/* 3단 레이아웃 */
+header .logo_gnb_left {
+  width: 1170px;
+  float: left;
+}
+header .search {
+  width: 110px;
+  /* 플롯 */
+  float: right;
+}
+header .logo {
+  width: 110px;
+  /* 플롯 */
+  float: left;
+  margin-top: 25px;
+}
+header nav {
+  /* 플롯 */
+  float: right;
+}
+header .gnb {
+  color: black;
+  font-weight: 400;
+  margin-left: 120px;
+}
+header .gnb li {
+  /* 플롯 */
+  float: left;
+  margin-top: 24px;
+  margin-left: 25px;
+}
+
+header .search {
+  /* 플롯 */
+  float: right;
+  text-align: right;
+  margin-top: 15px;
+}
+header .gnb li:hover {
+  color: #1e928c;
+}
+header .img_deco {
+  padding-left: 20px;
+}
+header .img_deco h2 {
+  font-size: 72px;
+  color: #000;
+  font-weight: bold;
+  margin-top: 230px;
+  line-height: 98px;
+}
+header .img_deco p {
+  font-size: 14px;
+  color: #999;
+  line-height: 20px;
+}
+header .img_deco button {
+  width: 150px;
+  height: 40px;
+  background-color: #1e928c;
+  margin-top: 20px;
+}
+header .img_deco button a {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+/* Section CardBox */
+.card_box {
+  background-color: #1e928c;
+  height: 600px;
+}
+
+.cardbox_view {
+  width: 400px;
+  height: 502px;
+  /* 플롯 */
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  
+  /* 포지션 */
+  position: relative;
+  left: 0;
+  top: -80px;
+  z-index: 1;
+}
+
+/* CardText */
+.card_box_info {
+padding-bottom: 60px;
+}
+.card_box_info h2 {
+font-size: 12px;
+font-weight: 400;
+  /* 플롯 */
+float: left;
+}
+.card_box_info p {
+  font-size: 18px;
+  font-weight: 600;
+  /* 플롯 */
+  float: right;
+  padding-right: 10px;
+}
+.card_box .card_box_info p img{
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
+/* Section ABOUTUS */
+.about_us {
+  padding: 100px 0 140px;
+}
+.about_us .about_us_text {
+  color: black;
+  text-align: center;
+  margin-bottom: 60px;
+  line-height: 1.5;
+}
+.about_us .line {
+  width: 110px;
+  height: 2px;
+  border-bottom: 1px solid #1e928c;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+/* Article MOVIE */
+.mov {
+  width: 100%;
+  height: 560px;
+  background-image: url('../images/mov_back.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding-top: 24px;
+  /* 포지션 위치기준값 */
+  position: relative;
+}
+.mov .video {
+  /* 포지션 */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  /* 포지션 중앙 맞추기 = 해당 박스 너비값의 반을 뺌 */
+  transform: translateX(-50%);
+  transform: translateX(-530px);
+}
+
+/* Section WHY */
+.why {
+  padding-top: 380px;
+  padding-bottom: 160px;
+}
+
+/* Section FAQ */
+.faq_saying {
+  background-color: #a7dfdb;
+  padding: 70px 0 130px;
+}
+
+/* Aside Banner */
+.banner {
+  background-color: #fc3;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 100px;
+}
+/* Footer Logo, SNS */
+.footer .footer_logo {
+  width: 510px;
+}
+.footer .footer_logo dt {
+  margin-bottom: 24px;
+}
+.footer .footer_logo dd {
+  font-size: 14px;
+  color: #fff;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+.footer .footer_logo .sns {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Footer Service */
+.footer .footer_services {
+  width: 330px;
+}
+.footer .footer_services dt {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.footer .footer_services dd {
+  font-size: 14px;
+  color: #c7c4c4;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.footer .footer_services dd a:hover {
+  color: #a7dfdb;
+}
+
+/* Footer Assistant */
+.footer .footer_assistance {
+  width: 330px;
+}
+.footer .footer_assistance dt {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.footer .footer_assistance dd {
+  font-size: 14px;
+  color: #c7c4c4;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.footer .footer_assistance dd a:hover {
+  color: #a7dfdb;
+}
+
+/* Footer About */
+.footer .footer_about {
+  width: 110px;
+}
+.footer .footer_about dt {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.footer .footer_about dd {
+  font-size: 14px;
+  color: #c7c4c4;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.footer .footer_about dd a:hover {
+  color: #a7dfdb;
+}
+
+/* Copyright */
+.footer .copyright {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 32px;
+}
+.footer .copyright_line {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 32px;
+}
+
+/* 플롯 레이아웃 */
+.footer_logo,
+.footer_services,
+.footer_assistance,
+.footer_about {
+  /* 플롯 */
+  float: left;
+}
+.copyright {
+  /* 플롯해제 */
+  clear: both;
+}
