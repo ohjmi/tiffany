@@ -1,4 +1,4 @@
-# tiffany&Co
+# Tiffany&Co
 
 ![9](https://github.com/ohjmi/tiffany/assets/114122230/d9f9f163-4f8c-4515-aba2-79f3cf9cd1ca)
 ![10](https://github.com/ohjmi/tiffany/assets/114122230/8f10e9b6-6fc9-4dbd-aac6-9f98d82ea38a)
